@@ -86,5 +86,14 @@ Pour l'analyse du code réaliser j'ai décidé de procéder par fonction. Il y a
 
 ### 1D_rgb2gsc
 
-Dans le cas d'une image RGBA, nous avons un pixel (8bits), le nombre de de composant (int => )
+Dans le cas d'une image RGBA, nous loadons un pixel (1byte), la largeur de l'image (4bytes) et le nombre de de composant (int => 4bytes) 3 fois. Un pixel (1byte) est storé en mémoire. C'est donc 28bytes qui sont accéder en mémoire.
+
+Nombre d'opération = 5 additions + 9 multiplication
+
+$OI = Nbr_{instr} / Nbr_{bytes} = 9 / 28 = 0.32142857$
+
+$Nbr_{Flop/s} = $
+
+
+
 
