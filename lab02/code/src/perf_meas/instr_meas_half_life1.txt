@@ -1,0 +1,82 @@
+--------------------------------------------------------------------------------
+CPU name:	AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:	AMD K19 (Zen3) architecture
+CPU clock:	3.79 GHz
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Region 1D, Group 1: HPC_LAB2_INSTR
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.061029 |
+|     call count    |          1 |
++-------------------+------------+
+
++---------------------------------+---------+--------------+
+|              Event              | Counter |  HWThread 0  |
++---------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]       |   TSC   | 6.102878e-02 |
+|       RETIRED_INSTRUCTIONS      |   PMC0  |    989334800 |
+|       RETIRED_BRANCH_INSTR      |   PMC1  |     75189080 |
+|    RETIRED_MISP_BRANCH_INSTR    |   PMC2  |        10477 |
+|    RETIRED_TAKEN_BRANCH_INSTR   |   PMC3  |     37608760 |
+| RETIRED_TAKEN_MISP_BRANCH_INSTR |   PMC4  |        10335 |
++---------------------------------+---------+--------------+
+
+Region 1D_rgb2gsc, Group 1: HPC_LAB2_INSTR
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.007695 |
+|     call count    |          1 |
++-------------------+------------+
+
++---------------------------------+---------+--------------+
+|              Event              | Counter |  HWThread 0  |
++---------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]       |   TSC   | 7.695476e-03 |
+|       RETIRED_INSTRUCTIONS      |   PMC0  |    121241300 |
+|       RETIRED_BRANCH_INSTR      |   PMC1  |      8368038 |
+|    RETIRED_MISP_BRANCH_INSTR    |   PMC2  |         3236 |
+|    RETIRED_TAKEN_BRANCH_INSTR   |   PMC3  |      4187700 |
+| RETIRED_TAKEN_MISP_BRANCH_INSTR |   PMC4  |         3218 |
++---------------------------------+---------+--------------+
+
+Region 1D_gaussian, Group 1: HPC_LAB2_INSTR
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.017082 |
+|     call count    |          1 |
++-------------------+------------+
+
++---------------------------------+---------+--------------+
+|              Event              | Counter |  HWThread 0  |
++---------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]       |   TSC   | 1.708218e-02 |
+|       RETIRED_INSTRUCTIONS      |   PMC0  |    300530400 |
+|       RETIRED_BRANCH_INSTR      |   PMC1  |     25061700 |
+|    RETIRED_MISP_BRANCH_INSTR    |   PMC2  |         3312 |
+|    RETIRED_TAKEN_BRANCH_INSTR   |   PMC3  |     12535530 |
+| RETIRED_TAKEN_MISP_BRANCH_INSTR |   PMC4  |         3272 |
++---------------------------------+---------+--------------+
+
+Region 1D_sobel, Group 1: HPC_LAB2_INSTR
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.035793 |
+|     call count    |          1 |
++-------------------+------------+
+
++---------------------------------+---------+--------------+
+|              Event              | Counter |  HWThread 0  |
++---------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]       |   TSC   | 3.579329e-02 |
+|       RETIRED_INSTRUCTIONS      |   PMC0  |    567543300 |
+|       RETIRED_BRANCH_INSTR      |   PMC1  |     41755100 |
+|    RETIRED_MISP_BRANCH_INSTR    |   PMC2  |         3360 |
+|    RETIRED_TAKEN_BRANCH_INSTR   |   PMC3  |     20883200 |
+| RETIRED_TAKEN_MISP_BRANCH_INSTR |   PMC4  |         3329 |
++---------------------------------+---------+--------------+
+

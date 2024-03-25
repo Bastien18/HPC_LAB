@@ -1,0 +1,82 @@
+--------------------------------------------------------------------------------
+CPU name:	AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:	AMD K19 (Zen3) architecture
+CPU clock:	3.79 GHz
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Region 1D, Group 1: HPC_LAB2_MEM
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.017622 |
+|     call count    |          1 |
++-------------------+------------+
+
++--------------------------------+---------+--------------+
+|              Event             | Counter |  HWThread 0  |
++--------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]      |   TSC   | 1.762201e-02 |
+|       DATA_CACHE_ACCESSES      |   PMC0  |     98836020 |
+| DATA_CACHE_REFILLS_FROM_MEMORY |   PMC1  |          188 |
+|     L1_DC_REFILLS_LOCAL_ALL    |   PMC2  |       130961 |
+|      L1_DTLB_MISS_ANY_MISS     |   PMC3  |         4312 |
+|          ICACHE_MISSES         |   PMC4  |          738 |
++--------------------------------+---------+--------------+
+
+Region 1D_rgb2gsc, Group 1: HPC_LAB2_MEM
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.002228 |
+|     call count    |          1 |
++-------------------+------------+
+
++--------------------------------+---------+--------------+
+|              Event             | Counter |  HWThread 0  |
++--------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]      |   TSC   | 2.228182e-03 |
+|       DATA_CACHE_ACCESSES      |   PMC0  |      9341481 |
+| DATA_CACHE_REFILLS_FROM_MEMORY |   PMC1  |           25 |
+|     L1_DC_REFILLS_LOCAL_ALL    |   PMC2  |        77462 |
+|      L1_DTLB_MISS_ANY_MISS     |   PMC3  |         1737 |
+|          ICACHE_MISSES         |   PMC4  |           16 |
++--------------------------------+---------+--------------+
+
+Region 1D_gaussian, Group 1: HPC_LAB2_MEM
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.004840 |
+|     call count    |          1 |
++-------------------+------------+
+
++--------------------------------+---------+--------------+
+|              Event             | Counter |  HWThread 0  |
++--------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]      |   TSC   | 4.839918e-03 |
+|       DATA_CACHE_ACCESSES      |   PMC0  |     30234690 |
+| DATA_CACHE_REFILLS_FROM_MEMORY |   PMC1  |           15 |
+|     L1_DC_REFILLS_LOCAL_ALL    |   PMC2  |        25201 |
+|      L1_DTLB_MISS_ANY_MISS     |   PMC3  |         1037 |
+|          ICACHE_MISSES         |   PMC4  |          253 |
++--------------------------------+---------+--------------+
+
+Region 1D_sobel, Group 1: HPC_LAB2_MEM
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.010109 |
+|     call count    |          1 |
++-------------------+------------+
+
++--------------------------------+---------+--------------+
+|              Event             | Counter |  HWThread 0  |
++--------------------------------+---------+--------------+
+|       Runtime (RDTSC) [s]      |   TSC   | 1.010867e-02 |
+|       DATA_CACHE_ACCESSES      |   PMC0  |     59237540 |
+| DATA_CACHE_REFILLS_FROM_MEMORY |   PMC1  |           14 |
+|     L1_DC_REFILLS_LOCAL_ALL    |   PMC2  |        25826 |
+|      L1_DTLB_MISS_ANY_MISS     |   PMC3  |         1028 |
+|          ICACHE_MISSES         |   PMC4  |          332 |
++--------------------------------+---------+--------------+
+
