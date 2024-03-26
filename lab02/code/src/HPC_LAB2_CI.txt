@@ -1,0 +1,5 @@
+SHORT HPC custom lab02 for instruction perf group
+
+EVENTSET
+PMC0 RETIRED_INSTRUCTIONS
+PMC1 DATA_CACHE_ACCESSES 

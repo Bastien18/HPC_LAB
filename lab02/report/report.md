@@ -94,6 +94,16 @@ $OI = Nbr_{instr} / Nbr_{bytes} = 9 / 28 = 0.32142857$
 
 $Nbr_{Flop/s} = $
 
+### 1D_gaussian
+
+### 1D_sobel
+
+### CHAINED_rgb2gsc
+
+### CHAINED_gaussian
+
+### CHAINED_sobel
+
 
 
 
