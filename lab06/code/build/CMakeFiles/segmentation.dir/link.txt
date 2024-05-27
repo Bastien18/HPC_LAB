@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -Wall -fno-inline -march=native -mavx2 -rdynamic CMakeFiles/segmentation.dir/src/main_segmentation.c.o CMakeFiles/segmentation.dir/src/k-means.c.o CMakeFiles/segmentation.dir/src/image.c.o -o segmentation  -lm 

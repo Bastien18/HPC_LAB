@@ -1,0 +1,4 @@
+../img/half-life.png
+../img/medalion.png
+../img/nyc.png
+../img/sample_640_2.png

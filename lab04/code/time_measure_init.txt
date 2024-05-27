@@ -1,0 +1,76 @@
+../img/half-life.png
+Nb cluster = 1 time is Image loaded!
+0.418569
+Programm ended successfully
+Nb cluster = 2 time is Image loaded!
+0.438116
+Programm ended successfully
+Nb cluster = 5 time is Image loaded!
+0.948524
+Programm ended successfully
+Nb cluster = 10 time is Image loaded!
+1.878476
+Programm ended successfully
+Nb cluster = 20 time is Image loaded!
+4.552434
+Programm ended successfully
+Nb cluster = 50 time is Image loaded!
+15.985831
+Programm ended successfully
+../img/medalion.png
+Nb cluster = 1 time is Image loaded!
+0.080349
+Programm ended successfully
+Nb cluster = 2 time is Image loaded!
+0.137783
+Programm ended successfully
+Nb cluster = 5 time is Image loaded!
+0.272537
+Programm ended successfully
+Nb cluster = 10 time is Image loaded!
+0.530942
+Programm ended successfully
+Nb cluster = 20 time is Image loaded!
+0.971926
+Programm ended successfully
+Nb cluster = 50 time is Image loaded!
+2.367186
+Programm ended successfully
+../img/nyc.png
+Nb cluster = 1 time is Image loaded!
+0.058431
+Programm ended successfully
+Nb cluster = 2 time is Image loaded!
+0.094169
+Programm ended successfully
+Nb cluster = 5 time is Image loaded!
+0.201302
+Programm ended successfully
+Nb cluster = 10 time is Image loaded!
+0.361752
+Programm ended successfully
+Nb cluster = 20 time is Image loaded!
+0.717238
+Programm ended successfully
+Nb cluster = 50 time is Image loaded!
+1.707267
+Programm ended successfully
+../img/sample_640_2.png
+Nb cluster = 1 time is Image loaded!
+0.024039
+Programm ended successfully
+Nb cluster = 2 time is Image loaded!
+0.029872
+Programm ended successfully
+Nb cluster = 5 time is Image loaded!
+0.067008
+Programm ended successfully
+Nb cluster = 10 time is Image loaded!
+0.123743
+Programm ended successfully
+Nb cluster = 20 time is Image loaded!
+0.236948
+Programm ended successfully
+Nb cluster = 50 time is Image loaded!
+0.583467
+Programm ended successfully

@@ -12,15 +12,14 @@ set(EDGE_SRC
     src/sobel.c
 )
 
-
 set(SEG_SRC
     src/main_segmentation.c
     src/k-means.c
     src/image.c
 )
 
-
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -g -Wall -fno-inline")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -g -Wall -fno-inline")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -Wall -fno-inline -march=native -mavx2")
 
 include_directories(
     ../lib/stb

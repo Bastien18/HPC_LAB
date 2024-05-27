@@ -1,0 +1,4 @@
+/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/edge_detection.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/segmentation.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/edit_cache.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/rebuild_cache.dir
