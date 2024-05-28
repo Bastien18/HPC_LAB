@@ -1,0 +1,1 @@
+/usr/bin/cc  -O0 -g -Wall -fno-inline -rdynamic CMakeFiles/segmentation_powercap.dir/src/main_segmentation_powercap.c.o CMakeFiles/segmentation_powercap.dir/src/k-means.c.o CMakeFiles/segmentation_powercap.dir/src/image.c.o -o segmentation_powercap  ./src/powercap/libpowercap.a 

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <immintrin.h>
+//#include <immintrin.h>
 
 //#define VECTORIZE 1
 
@@ -16,6 +16,7 @@ float distance(uint8_t *p1, uint8_t *p2)
     float b_diff = p1[2] - p2[2];
     return sqrt(r_diff * r_diff + g_diff * g_diff + b_diff * b_diff);
 }
+
 
 #ifdef VECTORIZE
 float distance_avx2(__m128i p1, __m128i p2, size_t components)
@@ -85,7 +86,7 @@ void kmeans_pp(struct img_1D_t *image, int num_clusters, uint8_t *centers)
 #endif
 
     uint8_t *new_center = malloc(image->components * sizeof(uint8_t));
-    uint8_t *src = malloc(image->components * sizeof(uint8_t));
+    *src = malloc(image->components * sizeof(uint8_t));
 
     // Loop to find remaining cluster centers
     for (int i = 1; i < num_clusters; ++i)

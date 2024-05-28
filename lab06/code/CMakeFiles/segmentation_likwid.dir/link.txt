@@ -1,0 +1,1 @@
+/usr/bin/cc  -O0 -g -Wall -fno-inline -rdynamic CMakeFiles/segmentation_likwid.dir/src/main_segmentation_likwid.c.o CMakeFiles/segmentation_likwid.dir/src/k-means.c.o CMakeFiles/segmentation_likwid.dir/src/image.c.o -o segmentation_likwid  -Wl,-rpath,/home/bpil/likwid-5.3.0 -lm /home/bpil/likwid-5.3.0/liblikwid.so 

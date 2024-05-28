@@ -1,0 +1,6 @@
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/segmentation.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/segmentation_likwid.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/segmentation_perf.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/segmentation_powercap.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/edit_cache.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/CMakeFiles/rebuild_cache.dir

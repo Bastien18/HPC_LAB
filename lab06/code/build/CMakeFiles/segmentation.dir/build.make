@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code
+CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build
+CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/segmentation.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/segmentation.dir/flags.make
 CMakeFiles/segmentation.dir/src/main_segmentation.c.o: CMakeFiles/segmentation.dir/flags.make
 CMakeFiles/segmentation.dir/src/main_segmentation.c.o: ../src/main_segmentation.c
 CMakeFiles/segmentation.dir/src/main_segmentation.c.o: CMakeFiles/segmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/segmentation.dir/src/main_segmentation.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/main_segmentation.c.o -MF CMakeFiles/segmentation.dir/src/main_segmentation.c.o.d -o CMakeFiles/segmentation.dir/src/main_segmentation.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_segmentation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/segmentation.dir/src/main_segmentation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/main_segmentation.c.o -MF CMakeFiles/segmentation.dir/src/main_segmentation.c.o.d -o CMakeFiles/segmentation.dir/src/main_segmentation.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_segmentation.c
 
 CMakeFiles/segmentation.dir/src/main_segmentation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/segmentation.dir/src/main_segmentation.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_segmentation.c > CMakeFiles/segmentation.dir/src/main_segmentation.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_segmentation.c > CMakeFiles/segmentation.dir/src/main_segmentation.c.i
 
 CMakeFiles/segmentation.dir/src/main_segmentation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/segmentation.dir/src/main_segmentation.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_segmentation.c -o CMakeFiles/segmentation.dir/src/main_segmentation.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_segmentation.c -o CMakeFiles/segmentation.dir/src/main_segmentation.c.s
 
 CMakeFiles/segmentation.dir/src/k-means.c.o: CMakeFiles/segmentation.dir/flags.make
 CMakeFiles/segmentation.dir/src/k-means.c.o: ../src/k-means.c
 CMakeFiles/segmentation.dir/src/k-means.c.o: CMakeFiles/segmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/segmentation.dir/src/k-means.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/k-means.c.o -MF CMakeFiles/segmentation.dir/src/k-means.c.o.d -o CMakeFiles/segmentation.dir/src/k-means.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/k-means.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/segmentation.dir/src/k-means.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/k-means.c.o -MF CMakeFiles/segmentation.dir/src/k-means.c.o.d -o CMakeFiles/segmentation.dir/src/k-means.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/k-means.c
 
 CMakeFiles/segmentation.dir/src/k-means.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/segmentation.dir/src/k-means.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/k-means.c > CMakeFiles/segmentation.dir/src/k-means.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/k-means.c > CMakeFiles/segmentation.dir/src/k-means.c.i
 
 CMakeFiles/segmentation.dir/src/k-means.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/segmentation.dir/src/k-means.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/k-means.c -o CMakeFiles/segmentation.dir/src/k-means.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/k-means.c -o CMakeFiles/segmentation.dir/src/k-means.c.s
 
 CMakeFiles/segmentation.dir/src/image.c.o: CMakeFiles/segmentation.dir/flags.make
 CMakeFiles/segmentation.dir/src/image.c.o: ../src/image.c
 CMakeFiles/segmentation.dir/src/image.c.o: CMakeFiles/segmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/segmentation.dir/src/image.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/image.c.o -MF CMakeFiles/segmentation.dir/src/image.c.o.d -o CMakeFiles/segmentation.dir/src/image.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/segmentation.dir/src/image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/segmentation.dir/src/image.c.o -MF CMakeFiles/segmentation.dir/src/image.c.o.d -o CMakeFiles/segmentation.dir/src/image.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c
 
 CMakeFiles/segmentation.dir/src/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/segmentation.dir/src/image.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c > CMakeFiles/segmentation.dir/src/image.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c > CMakeFiles/segmentation.dir/src/image.c.i
 
 CMakeFiles/segmentation.dir/src/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/segmentation.dir/src/image.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c -o CMakeFiles/segmentation.dir/src/image.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c -o CMakeFiles/segmentation.dir/src/image.c.s
 
 # Object files for target segmentation
 segmentation_OBJECTS = \
@@ -125,7 +125,7 @@ segmentation: CMakeFiles/segmentation.dir/src/k-means.c.o
 segmentation: CMakeFiles/segmentation.dir/src/image.c.o
 segmentation: CMakeFiles/segmentation.dir/build.make
 segmentation: CMakeFiles/segmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable segmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable segmentation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/segmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/segmentation.dir/clean:
 .PHONY : CMakeFiles/segmentation.dir/clean
 
 CMakeFiles/segmentation.dir/depend:
-	cd /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bpil/HEIG/HPC/HPC_LAB/lab04/code /home/bpil/HEIG/HPC/HPC_LAB/lab04/code /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/segmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bpil/HEIG/HPC/HPC_LAB/lab06/code /home/bpil/HEIG/HPC/HPC_LAB/lab06/code /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles/segmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/segmentation.dir/depend
 

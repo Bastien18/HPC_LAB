@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/../lib/stb -I/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/include
+C_INCLUDES = -I/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/../lib/stb -I/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/include
 
-C_FLAGS =  -O3 -Wall -fno-inline -march=native -mavx2 -std=gnu11
+C_FLAGS =  -O0 -g -Wall -std=gnu11
 

@@ -1,0 +1,444 @@
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   1.365468 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+-------------+
+|         Event        | Counter |  HWThread 0 |
++----------------------+---------+-------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  5139494000 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  5167125000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 15657660000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  5013437000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |           0 |
++----------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     1.3655 |
+| Runtime unhalted [s] |     1.3221 |
+|      Clock [MHz]     |  3771.7233 |
+|          CPI         |     0.3202 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   2.419805 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+-------------+
+|         Event        | Counter |  HWThread 0 |
++----------------------+---------+-------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  8979098000 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  9078929000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 26233060000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  8763230000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |           0 |
++----------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     2.4198 |
+| Runtime unhalted [s] |     2.3105 |
+|      Clock [MHz]     |  3751.0260 |
+|          CPI         |     0.3341 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   6.201783 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+-------------+
+|         Event        | Counter |  HWThread 0 |
++----------------------+---------+-------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 23306240000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 23417290000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 65890820000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 22996920000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |           0 |
++----------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     6.2018 |
+| Runtime unhalted [s] |     6.0633 |
+|      Clock [MHz]     |  3774.8206 |
+|          CPI         |     0.3490 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.350047 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 1324201000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 1324206000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 3920037000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 1280241000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.3500 |
+| Runtime unhalted [s] |     0.3376 |
+|      Clock [MHz]     |  3791.8607 |
+|          CPI         |     0.3266 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.638374 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 2413870000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 2413849000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 6865903000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 2360111000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.6384 |
+| Runtime unhalted [s] |     0.6223 |
+|      Clock [MHz]     |  3792.8558 |
+|          CPI         |     0.3437 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   1.689417 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+-------------+
+|         Event        | Counter |  HWThread 0 |
++----------------------+---------+-------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  6389035000 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  6390143000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 17912900000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  6298384000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |           0 |
++----------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     1.6894 |
+| Runtime unhalted [s] |     1.6606 |
+|      Clock [MHz]     |  3792.1579 |
+|          CPI         |     0.3516 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.324609 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 1159654000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 1208127000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 3158952000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 1116712000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.3246 |
+| Runtime unhalted [s] |     0.2944 |
+|      Clock [MHz]     |  3640.6270 |
+|          CPI         |     0.3535 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.589907 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 2187994000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 2194759000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 5538104000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 2121614000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.5899 |
+| Runtime unhalted [s] |     0.5594 |
+|      Clock [MHz]     |  3781.1283 |
+|          CPI         |     0.3831 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   1.404047 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+-------------+
+|         Event        | Counter |  HWThread 0 |
++----------------------+---------+-------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  5240422000 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  5304936000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 13601380000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  5165941000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |           0 |
++----------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     1.4040 |
+| Runtime unhalted [s] |     1.3620 |
+|      Clock [MHz]     |  3746.6912 |
+|          CPI         |     0.3798 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.073481 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  277844800 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  278299800 |
+| RETIRED_INSTRUCTIONS |   PMC0  |  767469600 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  267849700 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.0735 |
+| Runtime unhalted [s] |     0.0706 |
+|      Clock [MHz]     |  3785.7509 |
+|          CPI         |     0.3490 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.155243 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  |  578394800 |
+|     MAX_CPU_CLOCK    |  FIXC2  |  578395800 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 1497943000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  |  559323600 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.1552 |
+| Runtime unhalted [s] |     0.1475 |
+|      Clock [MHz]     |  3792.8106 |
+|          CPI         |     0.3734 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+
+--------------------------------------------------------------------------------
+CPU name:       AMD Ryzen 7 5800X 8-Core Processor             
+CPU type:       AMD K19 (Zen3) architecture
+CPU clock:      3.79 GHz
+--------------------------------------------------------------------------------
+Image loaded!
+Programm ended successfully
+
+--------------------------------------------------------------------------------
+Region Power consumption global, Group 1: CLOCK
++-------------------+------------+
+|    Region Info    | HWThread 0 |
++-------------------+------------+
+| RDTSC Runtime [s] |   0.420106 |
+|     call count    |          1 |
++-------------------+------------+
+
++----------------------+---------+------------+
+|         Event        | Counter | HWThread 0 |
++----------------------+---------+------------+
+|   ACTUAL_CPU_CLOCK   |  FIXC1  | 1588926000 |
+|     MAX_CPU_CLOCK    |  FIXC2  | 1588928000 |
+| RETIRED_INSTRUCTIONS |   PMC0  | 4208012000 |
+|  CPU_CLOCKS_UNHALTED |   PMC1  | 1563046000 |
+|    RAPL_PKG_ENERGY   |   PWR1  |          0 |
++----------------------+---------+------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     0.4201 |
+| Runtime unhalted [s] |     0.4121 |
+|      Clock [MHz]     |  3792.8196 |
+|          CPI         |     0.3714 |
+|      Energy [J]      |          0 |
+|       Power [W]      |          0 |
++----------------------+------------+

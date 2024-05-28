@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpowercap.a CMakeFiles/powercap.dir/src/powercap.c.o CMakeFiles/powercap.dir/src/powercap-sysfs.c.o CMakeFiles/powercap.dir/src/powercap-rapl.c.o CMakeFiles/powercap.dir/src/powercap-rapl-sysfs.c.o CMakeFiles/powercap.dir/src/powercap-common.c.o
+/usr/bin/ranlib libpowercap.a

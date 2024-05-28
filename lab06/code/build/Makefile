@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code
+CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build
+CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named edge_detection
-
-# Build rule for target.
-edge_detection: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 edge_detection
-.PHONY : edge_detection
-
-# fast build rule for target.
-edge_detection/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/build
-.PHONY : edge_detection/fast
-
-#=============================================================================
 # Target rules for targets named segmentation
 
 # Build rule for target.
@@ -142,13 +129,54 @@ segmentation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/build
 .PHONY : segmentation/fast
 
+#=============================================================================
+# Target rules for targets named segmentation_likwid
+
+# Build rule for target.
+segmentation_likwid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segmentation_likwid
+.PHONY : segmentation_likwid
+
+# fast build rule for target.
+segmentation_likwid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/build
+.PHONY : segmentation_likwid/fast
+
+#=============================================================================
+# Target rules for targets named segmentation_perf
+
+# Build rule for target.
+segmentation_perf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segmentation_perf
+.PHONY : segmentation_perf
+
+# fast build rule for target.
+segmentation_perf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/build
+.PHONY : segmentation_perf/fast
+
+#=============================================================================
+# Target rules for targets named segmentation_powercap
+
+# Build rule for target.
+segmentation_powercap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 segmentation_powercap
+.PHONY : segmentation_powercap
+
+# fast build rule for target.
+segmentation_powercap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/build
+.PHONY : segmentation_powercap/fast
+
 src/image.o: src/image.c.o
 .PHONY : src/image.o
 
 # target to build an object file
 src/image.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/image.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/image.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/image.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/image.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/image.c.o
 .PHONY : src/image.c.o
 
 src/image.i: src/image.c.i
@@ -156,8 +184,10 @@ src/image.i: src/image.c.i
 
 # target to preprocess a source file
 src/image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/image.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/image.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/image.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/image.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/image.c.i
 .PHONY : src/image.c.i
 
 src/image.s: src/image.c.s
@@ -165,8 +195,10 @@ src/image.s: src/image.c.s
 
 # target to generate assembly for a file
 src/image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/image.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/image.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/image.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/image.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/image.c.s
 .PHONY : src/image.c.s
 
 src/k-means.o: src/k-means.c.o
@@ -175,6 +207,9 @@ src/k-means.o: src/k-means.c.o
 # target to build an object file
 src/k-means.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/k-means.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/k-means.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/k-means.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/k-means.c.o
 .PHONY : src/k-means.c.o
 
 src/k-means.i: src/k-means.c.i
@@ -183,6 +218,9 @@ src/k-means.i: src/k-means.c.i
 # target to preprocess a source file
 src/k-means.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/k-means.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/k-means.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/k-means.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/k-means.c.i
 .PHONY : src/k-means.c.i
 
 src/k-means.s: src/k-means.c.s
@@ -191,6 +229,9 @@ src/k-means.s: src/k-means.c.s
 # target to generate assembly for a file
 src/k-means.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/k-means.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/k-means.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/k-means.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/k-means.c.s
 .PHONY : src/k-means.c.s
 
 src/main_segmentation.o: src/main_segmentation.c.o
@@ -217,53 +258,77 @@ src/main_segmentation.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation.dir/build.make CMakeFiles/segmentation.dir/src/main_segmentation.c.s
 .PHONY : src/main_segmentation.c.s
 
-src/main_sobel.o: src/main_sobel.c.o
-.PHONY : src/main_sobel.o
+src/main_segmentation_likwid.o: src/main_segmentation_likwid.c.o
+.PHONY : src/main_segmentation_likwid.o
 
 # target to build an object file
-src/main_sobel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/main_sobel.c.o
-.PHONY : src/main_sobel.c.o
+src/main_segmentation_likwid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/main_segmentation_likwid.c.o
+.PHONY : src/main_segmentation_likwid.c.o
 
-src/main_sobel.i: src/main_sobel.c.i
-.PHONY : src/main_sobel.i
+src/main_segmentation_likwid.i: src/main_segmentation_likwid.c.i
+.PHONY : src/main_segmentation_likwid.i
 
 # target to preprocess a source file
-src/main_sobel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/main_sobel.c.i
-.PHONY : src/main_sobel.c.i
+src/main_segmentation_likwid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/main_segmentation_likwid.c.i
+.PHONY : src/main_segmentation_likwid.c.i
 
-src/main_sobel.s: src/main_sobel.c.s
-.PHONY : src/main_sobel.s
+src/main_segmentation_likwid.s: src/main_segmentation_likwid.c.s
+.PHONY : src/main_segmentation_likwid.s
 
 # target to generate assembly for a file
-src/main_sobel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/main_sobel.c.s
-.PHONY : src/main_sobel.c.s
+src/main_segmentation_likwid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_likwid.dir/build.make CMakeFiles/segmentation_likwid.dir/src/main_segmentation_likwid.c.s
+.PHONY : src/main_segmentation_likwid.c.s
 
-src/sobel.o: src/sobel.c.o
-.PHONY : src/sobel.o
+src/main_segmentation_perf.o: src/main_segmentation_perf.c.o
+.PHONY : src/main_segmentation_perf.o
 
 # target to build an object file
-src/sobel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/sobel.c.o
-.PHONY : src/sobel.c.o
+src/main_segmentation_perf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/main_segmentation_perf.c.o
+.PHONY : src/main_segmentation_perf.c.o
 
-src/sobel.i: src/sobel.c.i
-.PHONY : src/sobel.i
+src/main_segmentation_perf.i: src/main_segmentation_perf.c.i
+.PHONY : src/main_segmentation_perf.i
 
 # target to preprocess a source file
-src/sobel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/sobel.c.i
-.PHONY : src/sobel.c.i
+src/main_segmentation_perf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/main_segmentation_perf.c.i
+.PHONY : src/main_segmentation_perf.c.i
 
-src/sobel.s: src/sobel.c.s
-.PHONY : src/sobel.s
+src/main_segmentation_perf.s: src/main_segmentation_perf.c.s
+.PHONY : src/main_segmentation_perf.s
 
 # target to generate assembly for a file
-src/sobel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/edge_detection.dir/build.make CMakeFiles/edge_detection.dir/src/sobel.c.s
-.PHONY : src/sobel.c.s
+src/main_segmentation_perf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_perf.dir/build.make CMakeFiles/segmentation_perf.dir/src/main_segmentation_perf.c.s
+.PHONY : src/main_segmentation_perf.c.s
+
+src/main_segmentation_powercap.o: src/main_segmentation_powercap.c.o
+.PHONY : src/main_segmentation_powercap.o
+
+# target to build an object file
+src/main_segmentation_powercap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/main_segmentation_powercap.c.o
+.PHONY : src/main_segmentation_powercap.c.o
+
+src/main_segmentation_powercap.i: src/main_segmentation_powercap.c.i
+.PHONY : src/main_segmentation_powercap.i
+
+# target to preprocess a source file
+src/main_segmentation_powercap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/main_segmentation_powercap.c.i
+.PHONY : src/main_segmentation_powercap.c.i
+
+src/main_segmentation_powercap.s: src/main_segmentation_powercap.c.s
+.PHONY : src/main_segmentation_powercap.s
+
+# target to generate assembly for a file
+src/main_segmentation_powercap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentation_powercap.dir/build.make CMakeFiles/segmentation_powercap.dir/src/main_segmentation_powercap.c.s
+.PHONY : src/main_segmentation_powercap.c.s
 
 # Help Target
 help:
@@ -273,8 +338,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... edge_detection"
 	@echo "... segmentation"
+	@echo "... segmentation_likwid"
+	@echo "... segmentation_perf"
+	@echo "... segmentation_powercap"
 	@echo "... src/image.o"
 	@echo "... src/image.i"
 	@echo "... src/image.s"
@@ -284,12 +351,15 @@ help:
 	@echo "... src/main_segmentation.o"
 	@echo "... src/main_segmentation.i"
 	@echo "... src/main_segmentation.s"
-	@echo "... src/main_sobel.o"
-	@echo "... src/main_sobel.i"
-	@echo "... src/main_sobel.s"
-	@echo "... src/sobel.o"
-	@echo "... src/sobel.i"
-	@echo "... src/sobel.s"
+	@echo "... src/main_segmentation_likwid.o"
+	@echo "... src/main_segmentation_likwid.i"
+	@echo "... src/main_segmentation_likwid.s"
+	@echo "... src/main_segmentation_perf.o"
+	@echo "... src/main_segmentation_perf.i"
+	@echo "... src/main_segmentation_perf.s"
+	@echo "... src/main_segmentation_powercap.o"
+	@echo "... src/main_segmentation_powercap.i"
+	@echo "... src/main_segmentation_powercap.s"
 .PHONY : help
 
 

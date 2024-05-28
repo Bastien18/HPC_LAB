@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c" "CMakeFiles/edge_detection.dir/src/image.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/image.c.o.d"
-  "/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_sobel.c" "CMakeFiles/edge_detection.dir/src/main_sobel.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/main_sobel.c.o.d"
-  "/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/sobel.c" "CMakeFiles/edge_detection.dir/src/sobel.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/sobel.c.o.d"
+  "/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c" "CMakeFiles/edge_detection.dir/src/image.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/image.c.o.d"
+  "/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_sobel.c" "CMakeFiles/edge_detection.dir/src/main_sobel.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/main_sobel.c.o.d"
+  "/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/sobel.c" "CMakeFiles/edge_detection.dir/src/sobel.c.o" "gcc" "CMakeFiles/edge_detection.dir/src/sobel.c.o.d"
   )
 
 # Targets to which this target links.

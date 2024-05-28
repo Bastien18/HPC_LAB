@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code
+CMAKE_SOURCE_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build
+CMAKE_BINARY_DIR = /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/edge_detection.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/edge_detection.dir/flags.make
 CMakeFiles/edge_detection.dir/src/main_sobel.c.o: CMakeFiles/edge_detection.dir/flags.make
 CMakeFiles/edge_detection.dir/src/main_sobel.c.o: ../src/main_sobel.c
 CMakeFiles/edge_detection.dir/src/main_sobel.c.o: CMakeFiles/edge_detection.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/edge_detection.dir/src/main_sobel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/main_sobel.c.o -MF CMakeFiles/edge_detection.dir/src/main_sobel.c.o.d -o CMakeFiles/edge_detection.dir/src/main_sobel.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_sobel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/edge_detection.dir/src/main_sobel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/main_sobel.c.o -MF CMakeFiles/edge_detection.dir/src/main_sobel.c.o.d -o CMakeFiles/edge_detection.dir/src/main_sobel.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_sobel.c
 
 CMakeFiles/edge_detection.dir/src/main_sobel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/edge_detection.dir/src/main_sobel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_sobel.c > CMakeFiles/edge_detection.dir/src/main_sobel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_sobel.c > CMakeFiles/edge_detection.dir/src/main_sobel.c.i
 
 CMakeFiles/edge_detection.dir/src/main_sobel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/edge_detection.dir/src/main_sobel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/main_sobel.c -o CMakeFiles/edge_detection.dir/src/main_sobel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/main_sobel.c -o CMakeFiles/edge_detection.dir/src/main_sobel.c.s
 
 CMakeFiles/edge_detection.dir/src/image.c.o: CMakeFiles/edge_detection.dir/flags.make
 CMakeFiles/edge_detection.dir/src/image.c.o: ../src/image.c
 CMakeFiles/edge_detection.dir/src/image.c.o: CMakeFiles/edge_detection.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/edge_detection.dir/src/image.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/image.c.o -MF CMakeFiles/edge_detection.dir/src/image.c.o.d -o CMakeFiles/edge_detection.dir/src/image.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/edge_detection.dir/src/image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/image.c.o -MF CMakeFiles/edge_detection.dir/src/image.c.o.d -o CMakeFiles/edge_detection.dir/src/image.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c
 
 CMakeFiles/edge_detection.dir/src/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/edge_detection.dir/src/image.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c > CMakeFiles/edge_detection.dir/src/image.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c > CMakeFiles/edge_detection.dir/src/image.c.i
 
 CMakeFiles/edge_detection.dir/src/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/edge_detection.dir/src/image.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/image.c -o CMakeFiles/edge_detection.dir/src/image.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/image.c -o CMakeFiles/edge_detection.dir/src/image.c.s
 
 CMakeFiles/edge_detection.dir/src/sobel.c.o: CMakeFiles/edge_detection.dir/flags.make
 CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c
 CMakeFiles/edge_detection.dir/src/sobel.c.o: CMakeFiles/edge_detection.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/edge_detection.dir/src/sobel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/sobel.c.o -MF CMakeFiles/edge_detection.dir/src/sobel.c.o.d -o CMakeFiles/edge_detection.dir/src/sobel.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/sobel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/edge_detection.dir/src/sobel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/edge_detection.dir/src/sobel.c.o -MF CMakeFiles/edge_detection.dir/src/sobel.c.o.d -o CMakeFiles/edge_detection.dir/src/sobel.c.o -c /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/sobel.c
 
 CMakeFiles/edge_detection.dir/src/sobel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/edge_detection.dir/src/sobel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/sobel.c > CMakeFiles/edge_detection.dir/src/sobel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/sobel.c > CMakeFiles/edge_detection.dir/src/sobel.c.i
 
 CMakeFiles/edge_detection.dir/src/sobel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/edge_detection.dir/src/sobel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/src/sobel.c -o CMakeFiles/edge_detection.dir/src/sobel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/sobel.c -o CMakeFiles/edge_detection.dir/src/sobel.c.s
 
 # Object files for target edge_detection
 edge_detection_OBJECTS = \
@@ -125,7 +125,7 @@ edge_detection: CMakeFiles/edge_detection.dir/src/image.c.o
 edge_detection: CMakeFiles/edge_detection.dir/src/sobel.c.o
 edge_detection: CMakeFiles/edge_detection.dir/build.make
 edge_detection: CMakeFiles/edge_detection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable edge_detection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable edge_detection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/edge_detection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/edge_detection.dir/clean:
 .PHONY : CMakeFiles/edge_detection.dir/clean
 
 CMakeFiles/edge_detection.dir/depend:
-	cd /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bpil/HEIG/HPC/HPC_LAB/lab04/code /home/bpil/HEIG/HPC/HPC_LAB/lab04/code /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/CMakeFiles/edge_detection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bpil/HEIG/HPC/HPC_LAB/lab06/code /home/bpil/HEIG/HPC/HPC_LAB/lab06/code /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build /home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/CMakeFiles/edge_detection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/edge_detection.dir/depend
 

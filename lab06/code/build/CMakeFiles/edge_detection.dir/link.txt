@@ -1,1 +1,1 @@
-/usr/bin/cc  -O3 -Wall -fno-inline -march=native -mavx2 -rdynamic CMakeFiles/edge_detection.dir/src/main_sobel.c.o CMakeFiles/edge_detection.dir/src/image.c.o CMakeFiles/edge_detection.dir/src/sobel.c.o -o edge_detection  -lm 
+/usr/bin/cc  -O0 -g -Wall -rdynamic CMakeFiles/edge_detection.dir/src/main_sobel.c.o CMakeFiles/edge_detection.dir/src/image.c.o CMakeFiles/edge_detection.dir/src/sobel.c.o -o edge_detection  -lm 

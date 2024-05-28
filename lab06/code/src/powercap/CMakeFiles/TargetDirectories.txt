@@ -1,0 +1,3 @@
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/powercap/CMakeFiles/powercap.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/powercap/CMakeFiles/edit_cache.dir
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/src/powercap/CMakeFiles/rebuild_cache.dir

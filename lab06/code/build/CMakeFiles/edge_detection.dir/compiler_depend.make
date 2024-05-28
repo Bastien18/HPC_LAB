@@ -38,7 +38,6 @@ CMakeFiles/edge_detection.dir/src/image.c.o: ../src/image.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -47,7 +46,6 @@ CMakeFiles/edge_detection.dir/src/image.c.o: ../src/image.c \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -57,14 +55,11 @@ CMakeFiles/edge_detection.dir/src/image.c.o: ../src/image.c \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
-  /home/bpil/HEIG/HPC/HPC_LAB/lab04/lib/stb/stb_image.h \
+  /home/bpil/HEIG/HPC/HPC_LAB/lab06/lib/stb/stb_image.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -91,7 +86,7 @@ CMakeFiles/edge_detection.dir/src/image.c.o: ../src/image.c \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
-  /home/bpil/HEIG/HPC/HPC_LAB/lab04/lib/stb/stb_image_write.h \
+  /home/bpil/HEIG/HPC/HPC_LAB/lab06/lib/stb/stb_image_write.h \
   ../include/image.h
 
 CMakeFiles/edge_detection.dir/src/main_sobel.c.o: ../src/main_sobel.c \
@@ -120,7 +115,6 @@ CMakeFiles/edge_detection.dir/src/main_sobel.c.o: ../src/main_sobel.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -141,7 +135,6 @@ CMakeFiles/edge_detection.dir/src/main_sobel.c.o: ../src/main_sobel.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -150,7 +143,6 @@ CMakeFiles/edge_detection.dir/src/main_sobel.c.o: ../src/main_sobel.c \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   ../include/image.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -195,7 +187,6 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -204,7 +195,6 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -214,7 +204,6 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -337,6 +326,8 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
@@ -371,17 +362,11 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h:
+/usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
-
-/home/bpil/HEIG/HPC/HPC_LAB/lab04/lib/stb/stb_image.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -391,29 +376,17 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h:
 
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -427,8 +400,6 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tbmintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
@@ -440,10 +411,6 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/features.h:
 
@@ -461,13 +428,15 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/home/bpil/HEIG/HPC/HPC_LAB/lab04/lib/stb/stb_image_write.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -479,13 +448,13 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h:
 
 ../src/sobel.c:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -515,7 +484,15 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/lib/stb/stb_image.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/strings.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/shaintrin.h:
 
@@ -545,27 +522,15 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h:
+
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h:
-
-../src/main_sobel.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h:
 
@@ -619,7 +584,13 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h:
 
+/home/bpil/HEIG/HPC/HPC_LAB/lab06/lib/stb/stb_image_write.h:
+
 ../include/image.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h:
+
+../src/main_sobel.c:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -653,9 +624,9 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h:
 
@@ -664,3 +635,11 @@ CMakeFiles/edge_detection.dir/src/sobel.c.o: ../src/sobel.c \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h:

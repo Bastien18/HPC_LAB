@@ -1,4 +1,4 @@
-# Install script for directory: /home/bpil/HEIG/HPC/HPC_LAB/lab04/code
+# Install script for directory: /home/bpil/HEIG/HPC/HPC_LAB/lab06/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bpil/HEIG/HPC/HPC_LAB/lab04/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bpil/HEIG/HPC/HPC_LAB/lab06/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

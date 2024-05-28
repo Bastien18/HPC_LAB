@@ -1,4 +1,130 @@
+bpil@pop-os:~/HEIG/HPC/HPC_LAB/lab06/code$ ./meas_perf_global.sh 
+
 ../img/half-life.png
+
+ Performance counter stats for 'system wide':
+
+              2.45 Joules power/energy-pkg/                                                     
+
+       0.486036355 seconds time elapsed
+
+Image loaded!
+0.104604
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              6.23 Joules power/energy-pkg/                                                     
+
+       0.470984326 seconds time elapsed
+
+Image loaded!
+0.217715
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+             15.81 Joules power/energy-pkg/                                                     
+
+       0.848607319 seconds time elapsed
+
+Image loaded!
+0.600488
+Programm ended successfully
+
 ../img/medalion.png
+
+ Performance counter stats for 'system wide':
+
+              1.60 Joules power/energy-pkg/                                                     
+
+       0.086818931 seconds time elapsed
+
+Image loaded!
+0.018949
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              2.18 Joules power/energy-pkg/                                                     
+
+       0.116570511 seconds time elapsed
+
+Image loaded!
+0.050000
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              4.17 Joules power/energy-pkg/                                                     
+
+       0.229608251 seconds time elapsed
+
+Image loaded!
+0.163873
+Programm ended successfully
+
 ../img/nyc.png
+
+ Performance counter stats for 'system wide':
+
+              1.31 Joules power/energy-pkg/                                                     
+
+       0.077083444 seconds time elapsed
+
+Image loaded!
+0.013289
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              1.87 Joules power/energy-pkg/                                                     
+
+       0.098616794 seconds time elapsed
+
+Image loaded!
+0.034763
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              3.48 Joules power/energy-pkg/                                                     
+
+       0.190529104 seconds time elapsed
+
+Image loaded!
+0.116595
+Programm ended successfully
+
 ../img/sample_640_2.png
+
+ Performance counter stats for 'system wide':
+
+              0.35 Joules power/energy-pkg/                                                     
+
+       0.019925492 seconds time elapsed
+
+Image loaded!
+0.004903
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              0.54 Joules power/energy-pkg/                                                     
+
+       0.030432667 seconds time elapsed
+
+Image loaded!
+0.011130
+Programm ended successfully
+
+ Performance counter stats for 'system wide':
+
+              1.11 Joules power/energy-pkg/                                                     
+
+       0.059531033 seconds time elapsed
+
+Image loaded!
+0.036329
+Programm ended successfully
+bpil@pop-os:~/HEIG/HPC/HPC_LAB/lab06/code$

@@ -17,6 +17,7 @@ int main(int argc, char** argv) {
         printf("The number of clusters should be greater than 0\n");
         return 1;
     }
+    
 
     img = load_image_1D(argv[1]);
 
